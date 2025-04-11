@@ -1,0 +1,180 @@
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v47-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v47-latin-700.woff2') format('woff2');
+}
+
+
+
+
+:root {
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue: #2B7FFF;
+    --color-primary-dark: #011C44;
+    --color-secondary-dark-gray: #4A4A4A;
+    --color-secondary-dark: #011F4A;
+    --color-secondary-light-gray: #747272;
+}
+
+/* Base */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+body {
+color: var(--color-primary-dark);
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+/* Link */
+.link {
+    color: var(--color-primary-dark);
+}
+
+.link:hover {
+    color: var(--color-primary-blue);
+}
+/* Hero section */
+.description {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.hero-section {
+    padding-top:  123px;
+    padding-bottom: 127px;
+}
+
+.hero-title {
+    font-family: 'Play', sans-serif;
+    color: var(--color-primary-blue);
+    font-size: 140px;
+    line-height: 114px;
+}
+/* Batton 2 */
+.button {
+    color: var(--color-primary-white);
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: var(--color-primary-blue);
+    border: 1px solid var(--color-primary-blue);
+    border-radius: 32px;
+    width: 219px;
+    height: 53px;
+    cursor: pointer;
+    margin-bottom: 14px;
+       
+}
+.button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+}
+.sub-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+/* beautyzone-section */
+.beautyzone-section {
+    padding: 63px 0;
+}
+.highlight {
+    font-weight: bold;
+}
+.text-title {
+font-size: 22px;
+}
+.section-title {
+    color: var(--color-primary-dark);
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Play', sans-serif;
+}
+
+.section-title .accent {
+    color: var(--color-primary-blue);
+}
+/* whywe-section */
+
+.whywe-section {
+    padding: 88px 0;
+}
+/* section */
+.section {
+    padding: 48px 0;
+}
+/* footer */
+.footer {
+    font-size: 16px;
+}
+.address {
+    font-style: normal;
+}
+.address-copyright {
+    font-size: 13px;
+}
+
+
+
+
+/* beauty zone */
+
+width: 529px;
+height: 228px;
+
+font-family: 'Play';
+font-style: normal;
+font-weight: 700;
+font-size: 140px;
+line-height: 114px;
+/* or 81% */
+text-transform: capitalize;
+
+/* beauty landing 2/с2 */
+color: #2B7FFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
